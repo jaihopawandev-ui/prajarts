@@ -915,7 +915,7 @@ async function placeOrder() {
             window.pendingOrderPayload.order_number = orderNum;
             window.pendingOrderPayload.total_amount = totalAmount;
 
-            const upiUri = `upi://pay?pa=prajart@upi&pn=PrajCraft&am=${totalAmount}&cu=INR&tn=${orderNum}`;
+            const upiUri = `upi://pay?pa=trillionpawan@okaxis&pn=PrajCraft&am=${totalAmount}&cu=INR&tn=${orderNum}`;
             window.currentUpiUri = upiUri;
 
             const qrContainer = document.getElementById('qrcode');
